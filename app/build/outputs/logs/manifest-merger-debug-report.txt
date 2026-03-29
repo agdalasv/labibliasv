@@ -1,0 +1,427 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:21:9-29:20
+	android:grantUriPermissions
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:25:13-47
+	android:authorities
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:23:13-60
+	android:exported
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:22:13-62
+manifest
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:2:1-32:12
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/24b33351a49e2a11710dac3c7fa8bc12/transformed/navigation-common-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/5754c2aed919851963c3d0c872b7734c/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/74a41d0d67a3a494bf4ec9d4324985a8/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/888586dddb08f5c9dedeb5a8e7e9b147/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/564fda0ce60bd6cdd9de5b5954b2dd4c/transformed/jetified-navigation-compose-2.8.5/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.material:material:1.13.0] /home/agdala/.gradle/caches/8.9/transforms/4fa1188f1f18211ab751f67393f1ff65/transformed/material-1.13.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/826d5b3500672eac7b0e84e11714ba53/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/agdala/.gradle/caches/8.9/transforms/dc5441dc1fef45443fd0a366b5a5aad0/transformed/constraintlayout-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/3e1f7f6bdcc6d6fe546e540a3a821ad6/transformed/appcompat-1.7.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f7258e4e5846c809d0c65afa580d47d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.5.4] /home/agdala/.gradle/caches/8.9/transforms/7edb41f8253addb7505b532fa11cde1d/transformed/fragment-1.5.4/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/04011b945f41a2fd64f01d59e9fa22a3/transformed/jetified-activity-1.10.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/ebdd2e2f8b493fae0bf2f10a4e5dae91/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/agdala/.gradle/caches/8.9/transforms/2f2806bbb6825d972c9283b1d821bfa0/transformed/jetified-material3-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9d2919f21b37577c9911c44069ab3e65/transformed/jetified-material-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4cff174cd4629b7ef59b146ed25506af/transformed/jetified-animation-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/cb4998e3c6c92803d1e73ec864d88691/transformed/jetified-material-ripple-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9ae3a7b93086bb04e77d98cbaed64e07/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/0cd8540d1a2a35664bcbbc97e4476ea0/transformed/jetified-ui-unit-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/7eab5e2d5095157a0148943e364c2982/transformed/jetified-ui-geometry-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/f9c8b0db318f60b994ec5ed255a33cc4/transformed/jetified-ui-util-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/ff5bab5b3b951b38cb9069a4d8386dbc/transformed/jetified-ui-text-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/287f0f6d6c84268de6d947735439506b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/45cda40d6f08c8ad61b05cde282c856d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/d3f2f3042a66253ebcddd2b5b50d047a/transformed/jetified-animation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/08194b7230f5cbcd68063b284c06c1e6/transformed/jetified-foundation-layout-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/314dc1f5e504f92b2f2036c70b6fc95e/transformed/jetified-foundation-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/93f7b8a3d1c6302596da3f0a1e592130/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6177ba498f1779028c04ae2585f4e1aa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.core:core-ktx:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/d0a04b5823c2fc91544f4fbcaf8ce33c/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/fa21cc256d6cfa430deea475130b024b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/edd546e40a7e76ab805a55f0fcb42a5a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.5.0] /home/agdala/.gradle/caches/8.9/transforms/eef80566c9fc235e9212a52c26cfd292/transformed/transition-1.5.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/9b01ccd615d24b3d5ba8cc8265bd5061/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/7377dc13c292a40fdf08be03bb730888/transformed/recyclerview-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/1811d923db2c74f2d23bc3b11538ef8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/18d93543e422e028a5b88e65df47e07f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.loader:loader:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/7de3ceb643c3da50d5adb2a24fcb4e21/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/651b9cbc48d164d924fc969214396607/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/8408beb09a3f1137f9a36f3d451f99f7/transformed/customview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/b75849fa8cd68f8707cd7f9d44b1053a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/00511d862c5a7b1eddb120235a878cbb/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/a0b45485c2d146964dfb4e3dfb0b35c6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/db4c2edfb4085daf18cada026e30380c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/658cc87fb98fa6997df4a86a6050ba0e/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/92b2c4f1895983ef55c737e0ae3c1488/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/85b059b8f5e20197a5b9e87567767eb7/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:2:1-5:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/c02805d950748926aa24d207e62ea48e/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/7ddd6818a605af1f8e33b2843533269c/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/aa7948a7356c8c3d76fe14598b104a20/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b756fbde653957191ef96756bf8abb05/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/14ad5cc8bfe93fde7f62312c5406af98/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/d4007a8b003d34bdfc8ac5e7767cc345/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/a303138406ca48ace149071598c8eda8/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/2656a9cf8f62e87bcbbbb4fe85ae578c/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4019d9f37646152be86d69f0feaf1a81/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/fdc676000ca3675a816dc77a6f842ca0/transformed/jetified-material-icons-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/13e8b9c56ba97b0a73fef2aa2dc47ca7/transformed/jetified-ui-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/48af16f6ec454c4e6d2aee523b247ca1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/e4565d6b2c8c5cb835d6b0588dabdb64/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-core-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/ce98e119f438f1fcdd8354888b8ad0fd/transformed/jetified-datastore-core-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.datastore:datastore-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/017d3d62765f9a68ca35951a96de3e8e/transformed/jetified-datastore-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/d44b225f14b25b53c046aa1ab40c93aa/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/b695e1115b7e4053a68ff37417b5a3b3/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/da8d590121dd06df5a96da1997332b80/transformed/jetified-runtime-release/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/53b41ee87048f94b6792fb996a3886a4/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/agdala/.gradle/caches/8.9/transforms/4c8251bfb1a8437ceb870da353feec92/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/79511d61b675ced476f35ff658a5623e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/1d1e4b32e7cdec57eef3b9b2104e5828/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f6ea5a9c14bf3fa61c7ecfaca951508/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/90e627da5719b356677e904a2fa5577a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6a89194f98c64a8844d0b74b139edeeb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/agdala/.gradle/caches/8.9/transforms/1919569abe79336adfc03da1e0f615ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:17:1-22:12
+	package
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:2:11-69
+application
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:4:5-30:19
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:4:5-30:19
+MERGED from [com.google.android.material:material:1.13.0] /home/agdala/.gradle/caches/8.9/transforms/4fa1188f1f18211ab751f67393f1ff65/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.13.0] /home/agdala/.gradle/caches/8.9/transforms/4fa1188f1f18211ab751f67393f1ff65/transformed/material-1.13.0/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/agdala/.gradle/caches/8.9/transforms/dc5441dc1fef45443fd0a366b5a5aad0/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/agdala/.gradle/caches/8.9/transforms/dc5441dc1fef45443fd0a366b5a5aad0/transformed/constraintlayout-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:22:5-26:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:28:5-89
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/90e627da5719b356677e904a2fa5577a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/90e627da5719b356677e904a2fa5577a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:25:5-31:19
+	android:extractNativeLibs
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:9:9-35
+	android:label
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:8:9-54
+	android:icon
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:6:9-43
+	android:allowBackup
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:5:9-35
+	android:theme
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:10:9-48
+activity#com.example.labibliasv.MainActivity
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:11:9-19:20
+	android:exported
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:13:13-36
+	android:theme
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:14:13-52
+	android:name
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:12:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:17:27-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:26:13-28:54
+	android:resource
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:28:17-51
+	android:name
+		ADDED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:27:17-67
+uses-sdk
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/24b33351a49e2a11710dac3c7fa8bc12/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/24b33351a49e2a11710dac3c7fa8bc12/transformed/navigation-common-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/5754c2aed919851963c3d0c872b7734c/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/5754c2aed919851963c3d0c872b7734c/transformed/navigation-runtime-2.8.5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/74a41d0d67a3a494bf4ec9d4324985a8/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/74a41d0d67a3a494bf4ec9d4324985a8/transformed/navigation-common-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/888586dddb08f5c9dedeb5a8e7e9b147/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/888586dddb08f5c9dedeb5a8e7e9b147/transformed/navigation-runtime-ktx-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/564fda0ce60bd6cdd9de5b5954b2dd4c/transformed/jetified-navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [androidx.navigation:navigation-compose:2.8.5] /home/agdala/.gradle/caches/8.9/transforms/564fda0ce60bd6cdd9de5b5954b2dd4c/transformed/jetified-navigation-compose-2.8.5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.material:material:1.13.0] /home/agdala/.gradle/caches/8.9/transforms/4fa1188f1f18211ab751f67393f1ff65/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.13.0] /home/agdala/.gradle/caches/8.9/transforms/4fa1188f1f18211ab751f67393f1ff65/transformed/material-1.13.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/826d5b3500672eac7b0e84e11714ba53/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/826d5b3500672eac7b0e84e11714ba53/transformed/jetified-appcompat-resources-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/agdala/.gradle/caches/8.9/transforms/dc5441dc1fef45443fd0a366b5a5aad0/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.0] /home/agdala/.gradle/caches/8.9/transforms/dc5441dc1fef45443fd0a366b5a5aad0/transformed/constraintlayout-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/3e1f7f6bdcc6d6fe546e540a3a821ad6/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.appcompat:appcompat:1.7.1] /home/agdala/.gradle/caches/8.9/transforms/3e1f7f6bdcc6d6fe546e540a3a821ad6/transformed/appcompat-1.7.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f7258e4e5846c809d0c65afa580d47d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f7258e4e5846c809d0c65afa580d47d/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/agdala/.gradle/caches/8.9/transforms/7edb41f8253addb7505b532fa11cde1d/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.5.4] /home/agdala/.gradle/caches/8.9/transforms/7edb41f8253addb7505b532fa11cde1d/transformed/fragment-1.5.4/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/04011b945f41a2fd64f01d59e9fa22a3/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/04011b945f41a2fd64f01d59e9fa22a3/transformed/jetified-activity-1.10.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/ebdd2e2f8b493fae0bf2f10a4e5dae91/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/ebdd2e2f8b493fae0bf2f10a4e5dae91/transformed/jetified-emoji2-views-helper-1.3.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/agdala/.gradle/caches/8.9/transforms/2f2806bbb6825d972c9283b1d821bfa0/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material3:material3-android:1.3.1] /home/agdala/.gradle/caches/8.9/transforms/2f2806bbb6825d972c9283b1d821bfa0/transformed/jetified-material3-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9d2919f21b37577c9911c44069ab3e65/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9d2919f21b37577c9911c44069ab3e65/transformed/jetified-material-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4cff174cd4629b7ef59b146ed25506af/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4cff174cd4629b7ef59b146ed25506af/transformed/jetified-animation-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/cb4998e3c6c92803d1e73ec864d88691/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-ripple-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/cb4998e3c6c92803d1e73ec864d88691/transformed/jetified-material-ripple-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9ae3a7b93086bb04e77d98cbaed64e07/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-data-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/9ae3a7b93086bb04e77d98cbaed64e07/transformed/jetified-ui-tooling-data-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/0cd8540d1a2a35664bcbbc97e4476ea0/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-unit-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/0cd8540d1a2a35664bcbbc97e4476ea0/transformed/jetified-ui-unit-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/7eab5e2d5095157a0148943e364c2982/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-geometry-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/7eab5e2d5095157a0148943e364c2982/transformed/jetified-ui-geometry-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/f9c8b0db318f60b994ec5ed255a33cc4/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-util-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/f9c8b0db318f60b994ec5ed255a33cc4/transformed/jetified-ui-util-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/ff5bab5b3b951b38cb9069a4d8386dbc/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-text-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/ff5bab5b3b951b38cb9069a4d8386dbc/transformed/jetified-ui-text-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/287f0f6d6c84268de6d947735439506b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-preview-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/287f0f6d6c84268de6d947735439506b/transformed/jetified-ui-tooling-preview-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/45cda40d6f08c8ad61b05cde282c856d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-graphics-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/45cda40d6f08c8ad61b05cde282c856d/transformed/jetified-ui-graphics-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/d3f2f3042a66253ebcddd2b5b50d047a/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.animation:animation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/d3f2f3042a66253ebcddd2b5b50d047a/transformed/jetified-animation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/08194b7230f5cbcd68063b284c06c1e6/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-layout-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/08194b7230f5cbcd68063b284c06c1e6/transformed/jetified-foundation-layout-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/314dc1f5e504f92b2f2036c70b6fc95e/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.foundation:foundation-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/314dc1f5e504f92b2f2036c70b6fc95e/transformed/jetified-foundation-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/93f7b8a3d1c6302596da3f0a1e592130/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-shapes-android:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/93f7b8a3d1c6302596da3f0a1e592130/transformed/jetified-graphics-shapes-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6177ba498f1779028c04ae2585f4e1aa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.customview:customview-poolingcontainer:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6177ba498f1779028c04ae2585f4e1aa/transformed/jetified-customview-poolingcontainer-1.0.0/AndroidManifest.xml:20:5-21:38
+MERGED from [androidx.core:core-ktx:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/d0a04b5823c2fc91544f4fbcaf8ce33c/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/d0a04b5823c2fc91544f4fbcaf8ce33c/transformed/jetified-core-ktx-1.13.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/fa21cc256d6cfa430deea475130b024b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/fa21cc256d6cfa430deea475130b024b/transformed/drawerlayout-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/edd546e40a7e76ab805a55f0fcb42a5a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/edd546e40a7e76ab805a55f0fcb42a5a/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.5.0] /home/agdala/.gradle/caches/8.9/transforms/eef80566c9fc235e9212a52c26cfd292/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.transition:transition:1.5.0] /home/agdala/.gradle/caches/8.9/transforms/eef80566c9fc235e9212a52c26cfd292/transformed/transition-1.5.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/9b01ccd615d24b3d5ba8cc8265bd5061/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/9b01ccd615d24b3d5ba8cc8265bd5061/transformed/dynamicanimation-1.1.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/7377dc13c292a40fdf08be03bb730888/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/7377dc13c292a40fdf08be03bb730888/transformed/recyclerview-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/1811d923db2c74f2d23bc3b11538ef8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/1811d923db2c74f2d23bc3b11538ef8b/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/18d93543e422e028a5b88e65df47e07f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/18d93543e422e028a5b88e65df47e07f/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.loader:loader:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/7de3ceb643c3da50d5adb2a24fcb4e21/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/7de3ceb643c3da50d5adb2a24fcb4e21/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/651b9cbc48d164d924fc969214396607/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/651b9cbc48d164d924fc969214396607/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/8408beb09a3f1137f9a36f3d451f99f7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] /home/agdala/.gradle/caches/8.9/transforms/8408beb09a3f1137f9a36f3d451f99f7/transformed/customview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/b75849fa8cd68f8707cd7f9d44b1053a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/b75849fa8cd68f8707cd7f9d44b1053a/transformed/jetified-autofill-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/00511d862c5a7b1eddb120235a878cbb/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.graphics:graphics-path:1.0.1] /home/agdala/.gradle/caches/8.9/transforms/00511d862c5a7b1eddb120235a878cbb/transformed/jetified-graphics-path-1.0.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/a0b45485c2d146964dfb4e3dfb0b35c6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/a0b45485c2d146964dfb4e3dfb0b35c6/transformed/jetified-savedstate-ktx-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/db4c2edfb4085daf18cada026e30380c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] /home/agdala/.gradle/caches/8.9/transforms/db4c2edfb4085daf18cada026e30380c/transformed/jetified-savedstate-1.2.1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/658cc87fb98fa6997df4a86a6050ba0e/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/658cc87fb98fa6997df4a86a6050ba0e/transformed/jetified-lifecycle-livedata-core-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/92b2c4f1895983ef55c737e0ae3c1488/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/92b2c4f1895983ef55c737e0ae3c1488/transformed/lifecycle-livedata-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/85b059b8f5e20197a5b9e87567767eb7/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/85b059b8f5e20197a5b9e87567767eb7/transformed/lifecycle-viewmodel-2.8.7/AndroidManifest.xml:4:5-43
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/c02805d950748926aa24d207e62ea48e/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/c02805d950748926aa24d207e62ea48e/transformed/jetified-lifecycle-viewmodel-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/7ddd6818a605af1f8e33b2843533269c/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/7ddd6818a605af1f8e33b2843533269c/transformed/jetified-lifecycle-runtime-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/aa7948a7356c8c3d76fe14598b104a20/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/aa7948a7356c8c3d76fe14598b104a20/transformed/lifecycle-livedata-core-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b756fbde653957191ef96756bf8abb05/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b756fbde653957191ef96756bf8abb05/transformed/jetified-lifecycle-viewmodel-savedstate-2.8.7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/14ad5cc8bfe93fde7f62312c5406af98/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/14ad5cc8bfe93fde7f62312c5406af98/transformed/jetified-lifecycle-viewmodel-ktx-2.8.7/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/d4007a8b003d34bdfc8ac5e7767cc345/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/d4007a8b003d34bdfc8ac5e7767cc345/transformed/jetified-lifecycle-runtime-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/a303138406ca48ace149071598c8eda8/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/a303138406ca48ace149071598c8eda8/transformed/jetified-lifecycle-runtime-ktx-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/2656a9cf8f62e87bcbbbb4fe85ae578c/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-compose-android:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/2656a9cf8f62e87bcbbbb4fe85ae578c/transformed/jetified-lifecycle-viewmodel-compose-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4019d9f37646152be86d69f0feaf1a81/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-extended-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/4019d9f37646152be86d69f0feaf1a81/transformed/jetified-material-icons-extended-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/fdc676000ca3675a816dc77a6f842ca0/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.material:material-icons-core-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/fdc676000ca3675a816dc77a6f842ca0/transformed/jetified-material-icons-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/13e8b9c56ba97b0a73fef2aa2dc47ca7/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.ui:ui-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/13e8b9c56ba97b0a73fef2aa2dc47ca7/transformed/jetified-ui-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/48af16f6ec454c4e6d2aee523b247ca1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/48af16f6ec454c4e6d2aee523b247ca1/transformed/jetified-activity-ktx-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/e4565d6b2c8c5cb835d6b0588dabdb64/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-compose:1.10.1] /home/agdala/.gradle/caches/8.9/transforms/e4565d6b2c8c5cb835d6b0588dabdb64/transformed/jetified-activity-compose-1.10.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/ce98e119f438f1fcdd8354888b8ad0fd/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-core-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/ce98e119f438f1fcdd8354888b8ad0fd/transformed/jetified-datastore-core-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/017d3d62765f9a68ca35951a96de3e8e/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/017d3d62765f9a68ca35951a96de3e8e/transformed/jetified-datastore-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/d44b225f14b25b53c046aa1ab40c93aa/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.datastore:datastore-preferences-android:1.1.2] /home/agdala/.gradle/caches/8.9/transforms/d44b225f14b25b53c046aa1ab40c93aa/transformed/jetified-datastore-preferences-release/AndroidManifest.xml:20:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/b695e1115b7e4053a68ff37417b5a3b3/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-saveable-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/b695e1115b7e4053a68ff37417b5a3b3/transformed/jetified-runtime-saveable-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/da8d590121dd06df5a96da1997332b80/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.compose.runtime:runtime-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/da8d590121dd06df5a96da1997332b80/transformed/jetified-runtime-release/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/53b41ee87048f94b6792fb996a3886a4/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-viewtree:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/53b41ee87048f94b6792fb996a3886a4/transformed/jetified-core-viewtree-1.0.0/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/agdala/.gradle/caches/8.9/transforms/4c8251bfb1a8437ceb870da353feec92/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.1] /home/agdala/.gradle/caches/8.9/transforms/4c8251bfb1a8437ceb870da353feec92/transformed/jetified-annotation-experimental-1.4.1/AndroidManifest.xml:5:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/79511d61b675ced476f35ff658a5623e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/79511d61b675ced476f35ff658a5623e/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/1d1e4b32e7cdec57eef3b9b2104e5828/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/1d1e4b32e7cdec57eef3b9b2104e5828/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f6ea5a9c14bf3fa61c7ecfaca951508/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/0f6ea5a9c14bf3fa61c7ecfaca951508/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/90e627da5719b356677e904a2fa5577a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/90e627da5719b356677e904a2fa5577a/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6a89194f98c64a8844d0b74b139edeeb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] /home/agdala/.gradle/caches/8.9/transforms/6a89194f98c64a8844d0b74b139edeeb/transformed/jetified-tracing-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/agdala/.gradle/caches/8.9/transforms/1919569abe79336adfc03da1e0f615ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] /home/agdala/.gradle/caches/8.9/transforms/1919569abe79336adfc03da1e0f615ef/transformed/core-runtime-2.2.0/AndroidManifest.xml:20:5-44
+	android:targetSdkVersion
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml
+activity#androidx.compose.ui.tooling.PreviewActivity
+ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from [androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] /home/agdala/.gradle/caches/8.9/transforms/f66bd992f6198a516c31d322b75218d3/transformed/jetified-startup-runtime-1.1.1/AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+permission#com.example.labibliasv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+uses-permission#com.example.labibliasv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92

@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color emerald_500
+color emerald_600
+color ic_launcher_background
+color stone_50
+color white
+color zinc_900
+drawable ic_launcher_foreground
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Theme.LaBibliaSv
+xml file_paths

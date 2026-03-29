@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Biblia SV</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #f0c14b;
+        }
+        p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+            opacity: 0.8;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 40px;
+            background: #f0c14b;
+            color: #1a1a2e;
+            text-decoration: none;
+            border-radius: 30px;
+            font-weight: bold;
+            font-size: 1.1rem;
+            margin: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 30px rgba(240, 193, 75, 0.3);
+        }
+        .btn-secondary {
+            background: transparent;
+            border: 2px solid #f0c14b;
+            color: #f0c14b;
+        }
+        .btn-secondary:hover {
+            background: #f0c14b;
+            color: #1a1a2e;
+        }
+        .screenshots {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin: 40px 0;
+        }
+        .screenshots img {
+            width: 120px;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+        }
+        .donate {
+            background: rgba(255,255,255,0.1);
+            padding: 30px;
+            border-radius: 20px;
+            margin-top: 40px;
+        }
+        .donate h2 {
+            color: #f0c14b;
+            margin-bottom: 20px;
+        }
+        .btc-box {
+            background: #2a2a4a;
+            padding: 15px 20px;
+            border-radius: 10px;
+            margin-top: 15px;
+            font-family: monospace;
+            word-break: break-all;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        .btc-box:hover {
+            background: #3a3a5a;
+        }
+        .btc-box span {
+            color: #f0c14b;
+        }
+        .copy-hint {
+            font-size: 0.8rem;
+            opacity: 0.6;
+            margin-top: 5px;
+        }
+        .contact {
+            margin-top: 30px;
+            opacity: 0.7;
+        }
+        .contact a {
+            color: #f0c14b;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="La Biblia SV">
+        <h1>La Biblia SV</h1>
+        <p>Aplicación móvil para leer la Biblia</p>
+        
+        <a href="https://github.com/agdalasv/labibliasv/releases/latest/download/app-release.apk" class="btn">
+            Descargar APK v2.0
+        </a>
+        
+        <div class="screenshots">
+            <img src="images/1.jpg" alt="Screenshot 1">
+            <img src="images/2.jpg" alt="Screenshot 2">
+            <img src="images/3.jpg" alt="Screenshot 3">
+            <img src="images/4.jpg" alt="Screenshot 4">
+            <img src="images/5.jpg" alt="Screenshot 5">
+            <img src="images/6.jpg" alt="Screenshot 6">
+        </div>
+        
+        <div class="donate">
+            <h2>Invita un café ☕</h2>
+            <p>Si te gusta este proyecto, puedes apoyar con una donación:</p>
+            <div class="btc-box" onclick="copyBTC()">
+                <span>BTC:</span> 3L8f3v6BWwL7KBcb8AMZQ2bpE3ACne2EUf
+            </div>
+            <p class="copy-hint">Clic para copiar</p>
+        </div>
+        
+        <div class="contact">
+            <p>Contacto: <a href="mailto:agdala.sv@gmail.com">agdala.sv@gmail.com</a></p>
+        </div>
+    </div>
+    
+    <script>
+        function copyBTC() {
+            navigator.clipboard.writeText('3L8f3v6BWwL7KBcb8AMZQ2bpE3ACne2EUf');
+            alert('Dirección BTC copiada al portapapeles!');
+        }
+    </script>
+</body>
+</html>

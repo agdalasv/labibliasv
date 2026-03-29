@@ -1,0 +1,151 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.labibliasv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="35" />
+10
+11    <permission
+11-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:22:5-24:47
+12        android:name="com.example.labibliasv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.example.labibliasv.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:4:5-30:19
+18        android:allowBackup="true"
+18-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:5:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.13.1] /home/agdala/.gradle/caches/8.9/transforms/626b6ced8a7f2277dcd82bc719b96ff7/transformed/core-1.13.1/AndroidManifest.xml:28:18-86
+20        android:debuggable="true"
+21        android:extractNativeLibs="false"
+22        android:icon="@mipmap/ic_launcher"
+22-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:6:9-43
+23        android:label="@string/app_name"
+23-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:7:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:8:9-54
+25        android:supportsRtl="true"
+25-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:9:9-35
+26        android:theme="@style/Theme.LaBibliaSv" >
+26-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:10:9-48
+27        <activity
+27-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:11:9-19:20
+28            android:name="com.example.labibliasv.MainActivity"
+28-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:12:13-41
+29            android:exported="true"
+29-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:13:13-36
+30            android:theme="@style/Theme.LaBibliaSv" >
+30-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:14:13-52
+31            <intent-filter>
+31-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:15:13-18:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:16:17-69
+32-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:16:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:17:17-77
+34-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:17:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <provider
+39            android:name="androidx.core.content.FileProvider"
+39-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:22:13-62
+40            android:authorities="com.example.labibliasv.provider"
+40-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:23:13-60
+41            android:exported="false"
+41-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:24:13-37
+42            android:grantUriPermissions="true" >
+42-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:25:13-47
+43            <meta-data
+43-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:26:13-28:54
+44                android:name="android.support.FILE_PROVIDER_PATHS"
+44-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:27:17-67
+45                android:resource="@xml/file_paths" />
+45-->/home/agdala/AndroidStudioProjects/LaBibliaSv/app/src/main/AndroidManifest.xml:28:17-51
+46        </provider>
+47
+48        <activity
+48-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:23:9-25:39
+49            android:name="androidx.compose.ui.tooling.PreviewActivity"
+49-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:24:13-71
+50            android:exported="true" />
+50-->[androidx.compose.ui:ui-tooling-android:1.7.6] /home/agdala/.gradle/caches/8.9/transforms/6fe3cb6b00f74778116a12dd300e4b85/transformed/jetified-ui-tooling-release/AndroidManifest.xml:25:13-36
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:24:9-32:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:25:13-67
+54            android:authorities="com.example.labibliasv.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:26:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:27:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:29:13-31:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:30:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.3.0] /home/agdala/.gradle/caches/8.9/transforms/c8e3e4d50f1415f543682704f7acf036/transformed/jetified-emoji2-1.3.0/AndroidManifest.xml:31:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:29:13-31:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:30:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.8.7] /home/agdala/.gradle/caches/8.9/transforms/b226cf46c5fee928d86d466274665377/transformed/jetified-lifecycle-process-2.8.7/AndroidManifest.xml:31:17-49
+62            <meta-data
+62-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+63-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+64                android:value="androidx.startup" />
+64-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+65        </provider>
+66
+67        <receiver
+67-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+68            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+68-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+69            android:directBootAware="false"
+69-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+70            android:enabled="true"
+70-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+71            android:exported="true"
+71-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+72            android:permission="android.permission.DUMP" >
+72-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+73            <intent-filter>
+73-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+74                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+74-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+75            </intent-filter>
+76            <intent-filter>
+76-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+77                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+77-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+78            </intent-filter>
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+80                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+80-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+83                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+83-->[androidx.profileinstaller:profileinstaller:1.4.0] /home/agdala/.gradle/caches/8.9/transforms/a6fddaa6da6675540fba66e13443842d/transformed/jetified-profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+84            </intent-filter>
+85        </receiver>
+86    </application>
+87
+88</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="emerald_500">#FF10B981</color>
+    <color name="emerald_600">#FF059669</color>
+    <color name="ic_launcher_background">#FF10B981</color>
+    <color name="stone_50">#FFFAFAF9</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="zinc_900">#FF18181B</color>
+    <string name="app_name">La Biblia Sv</string>
+    <style name="Theme.LaBibliaSv" parent="Theme.Material3.Light.NoActionBar">
+        <item name="android:statusBarColor">@color/stone_50</item>
+        <item name="android:navigationBarColor">@color/stone_50</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>
